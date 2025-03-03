@@ -1,46 +1,104 @@
-# Getting Started with Create React App
+# Poker Game Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+אפליקציית ווב לניהול משחקי פוקר, מעקב אחר מאזני שחקנים וחישוב העברות כספים בסוף המשחק.
 
-## Available Scripts
+## תכונות עיקריות
 
-In the project directory, you can run:
+- ניהול שחקנים
+- יצירת משחקים חדשים
+- מעקב אחר קניות וסכומי החזרה
+- חישוב אוטומטי של העברות כספים בסוף המשחק
+- צפייה בהיסטוריית משחקים
+- מעקב אחר מאזני שחקנים
+- ממשק משתמש מותאם למובייל
 
-### `npm start`
+## טכנולוגיות
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React
+- TypeScript
+- Material UI
+- Firebase (Firestore)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## התקנה
 
-### `npm test`
+1. שכפל את המאגר:
+```
+git clone https://github.com/your-username/poker-web-app.git
+cd poker-web-app
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. התקן את התלויות:
+```
+npm install
+```
 
-### `npm run build`
+3. הגדר את הגדרות Firebase:
+   - צור קובץ `.env` בתיקיית הפרויקט
+   - הוסף את מפתחות ה-API של Firebase:
+   ```
+   REACT_APP_FIREBASE_API_KEY=your-api-key
+   REACT_APP_FIREBASE_AUTH_DOMAIN=your-auth-domain
+   REACT_APP_FIREBASE_PROJECT_ID=your-project-id
+   REACT_APP_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+   REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
+   REACT_APP_FIREBASE_APP_ID=your-app-id
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## הרצה בסביבת פיתוח
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+האפליקציה תרוץ בכתובת [http://localhost:3000](http://localhost:3000).
 
-### `npm run eject`
+## בנייה לייצור
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+npm run build
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+הפקודה תיצור גרסת ייצור אופטימלית בתיקיית `build`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## פריסה
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+ניתן לפרוס את האפליקציה בשירותים כמו Firebase Hosting, Vercel, Netlify או כל שירות אחסון סטטי אחר.
 
-## Learn More
+### פריסה ל-Firebase Hosting
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. התקן את Firebase CLI:
+```
+npm install -g firebase-tools
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. התחבר ל-Firebase:
+```
+firebase login
+```
+
+3. אתחל את הפרויקט:
+```
+firebase init
+```
+
+4. פרוס את האפליקציה:
+```
+firebase deploy
+```
+
+## מבנה הפרויקט
+
+- `src/` - קוד המקור של האפליקציה
+  - `assets/` - תמונות וקבצי מדיה
+  - `components/` - קומפוננטות React משותפות
+  - `data/` - לוגיקת גישה לנתונים ומודלים
+  - `routes/` - הגדרות ניתוב
+  - `screens/` - מסכי האפליקציה
+  - `themes/` - הגדרות עיצוב
+  - `types/` - הגדרות טיפוסים
+
+- `public/` - קבצים סטטיים
+
+## רישיון
+
+MIT 
