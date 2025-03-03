@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/poker-web-app/static/css/main.e6c13ad2.css",
-    "main.js": "/poker-web-app/static/js/main.3f9e1db5.js",
+    "main.js": "/poker-web-app/static/js/main.a9b677f5.js",
     "static/js/902.03983dcf.chunk.js": "/poker-web-app/static/js/902.03983dcf.chunk.js",
     "static/js/241.7acd52c7.chunk.js": "/poker-web-app/static/js/241.7acd52c7.chunk.js",
     "static/js/743.329cf543.chunk.js": "/poker-web-app/static/js/743.329cf543.chunk.js",
-    "static/js/416.f72dff71.chunk.js": "/poker-web-app/static/js/416.f72dff71.chunk.js",
+    "static/js/416.b8beacd6.chunk.js": "/poker-web-app/static/js/416.b8beacd6.chunk.js",
     "static/js/720.1d93c846.chunk.js": "/poker-web-app/static/js/720.1d93c846.chunk.js",
     "static/js/453.ab16b859.chunk.js": "/poker-web-app/static/js/453.ab16b859.chunk.js",
     "static/js/992.d0a59eab.chunk.js": "/poker-web-app/static/js/992.d0a59eab.chunk.js",
@@ -19,11 +19,11 @@
     "static/media/poker-main.jpg": "/poker-web-app/static/media/poker-main.b04c86a7361b14e3e726.jpg",
     "index.html": "/poker-web-app/index.html",
     "main.e6c13ad2.css.map": "/poker-web-app/static/css/main.e6c13ad2.css.map",
-    "main.3f9e1db5.js.map": "/poker-web-app/static/js/main.3f9e1db5.js.map",
+    "main.a9b677f5.js.map": "/poker-web-app/static/js/main.a9b677f5.js.map",
     "902.03983dcf.chunk.js.map": "/poker-web-app/static/js/902.03983dcf.chunk.js.map",
     "241.7acd52c7.chunk.js.map": "/poker-web-app/static/js/241.7acd52c7.chunk.js.map",
     "743.329cf543.chunk.js.map": "/poker-web-app/static/js/743.329cf543.chunk.js.map",
-    "416.f72dff71.chunk.js.map": "/poker-web-app/static/js/416.f72dff71.chunk.js.map",
+    "416.b8beacd6.chunk.js.map": "/poker-web-app/static/js/416.b8beacd6.chunk.js.map",
     "720.1d93c846.chunk.js.map": "/poker-web-app/static/js/720.1d93c846.chunk.js.map",
     "453.ab16b859.chunk.js.map": "/poker-web-app/static/js/453.ab16b859.chunk.js.map",
     "992.d0a59eab.chunk.js.map": "/poker-web-app/static/js/992.d0a59eab.chunk.js.map",
@@ -37,6 +37,6 @@
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.3f9e1db5.js"
+    "static/js/main.a9b677f5.js"
   ]
 }
